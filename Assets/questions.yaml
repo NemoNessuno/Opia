@@ -1,0 +1,86 @@
+---
+questions:
+  - question:
+    text:  What action would you prefer with this person?
+    answer1:  Shake Hands
+    answer2:  Hug
+    answer3:  Kiss
+    answer4:  Have Sex
+
+  - question:
+    text:  What game would you like to play with this person?
+    answer1:  Trivial Pursuit
+    answer2:  Twister
+    answer3:  Co-Op video game
+    answer4:  Poker
+
+  - question:
+    text:  What facial feature do you like most?
+    answer1:  Eyes
+    answer2:  Bone Structur
+    answer3:  Mouth / Lips
+    answer4:  Skin
+
+  - question:
+    text:  How comfortable do you feel with this person?
+    answer1:  Very
+    answer2:  So So
+    answer3:  A Little
+    answer4:  Not at all
+
+  - question:
+    text:  What topic would you want to discuss with this person?
+    answer1:  Politics
+    answer2:  Personal Issues
+    answer3:  Hobbies
+    answer4:  Rather not talk
+
+  - question:
+    text:  What do you think is the best trait of this person?
+    answer1:  Looks
+    answer2:  Personality
+    answer3:  Intellect
+    answer4:  Vibe
+
+  - question:
+    text:  Who do you want to introduce this person to?
+    answer1:  Close Friends
+    answer2:  Family
+    answer3:  Nobody
+    answer4:  Co-Workers
+
+  - question:
+    text:  What activity do you want to do with this person?
+    answer1:  Stroll on the beach
+    answer2:  Cuddle
+    answer3:  See a movie
+    answer4:  Go Swimming
+
+  - question:
+    text:  What emotion springs to mind when you see this person?
+    answer1:  Aggression
+    answer2:  Indifference
+    answer3:  Comfort
+    answer4:  Desire
+
+  - question:
+    text:  When do you want to see this person again?
+    answer1:  One Day
+    answer2:  One Week
+    answer3:  One Month
+    answer4:  A year or more
+
+  - question:
+    text:  There was a party at your house and the person stays behind. Where would you want him/her to sleep?
+    answer1:  Your Bed
+    answer2:  Sofa
+    answer3:  Bed in other room
+    answer4:  Not at your place at all
+
+  - question:
+    text:  What do you hope this person likes about you?
+    answer1:  Looks
+    answer2:  Personality
+    answer3:  Intellect
+    answer4:  Vibe
+...
