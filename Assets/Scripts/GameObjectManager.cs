@@ -22,7 +22,7 @@ public class GameObjectManager{
 	/// <returns>The initialized card.</returns>
 	/// <param name="name">Name.</param>
 	/// <param name="position">Position.</param>
-    public static QuestionCardController SpawnCard(Vector3 position, CardType cardType)
+    public static GameObject SpawnCard(Vector3 position, CardType cardType)
     {
         string typeString = null;
 
@@ -37,16 +37,20 @@ public class GameObjectManager{
             case CardType.Options:
                 typeString = "OptionsCard";
                 break;
+            case CardType.Eval:
+                typeString = "EvaluationCard";
+                break;
         }
 
 
-        return ((GameObject)MonoBehaviour.Instantiate(Resources.Load<GameObject>(typeString), position, Quaternion.identity)).GetComponent<QuestionCardController>();
+        return (GameObject)MonoBehaviour.Instantiate(Resources.Load<GameObject>(typeString), position, Quaternion.identity);
 	}
 
     public enum CardType
     {
         Question,
         Menu,
-        Options
+        Options,
+        Eval
     }
 }

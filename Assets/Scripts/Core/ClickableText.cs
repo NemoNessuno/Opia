@@ -2,7 +2,7 @@
 using System.Collections;
 using System;
 
-public class OnClickBehaviour : MonoBehaviour {
+public class ClickableText : MonoBehaviour {
 
     [HideInInspector]
     public Action OnClick = () => { /*Do nothing*/ };

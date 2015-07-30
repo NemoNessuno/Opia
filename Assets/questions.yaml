@@ -2,85 +2,373 @@
 questions:
   - question:
     text:  What action would you prefer with this person?
-    answer1:  Shake Hands
-    answer2:  Hug
-    answer3:  Kiss
-    answer4:  Have Sex
+    answer1: 
+        text:  Shake Hands
+        physicalIntimacy: 0.1
+        emotionalInitimacy: 0
+        physicalAttraction: 0
+        buddy: 0
+        intellectualAttraction: 0
+    answer2:
+        text: Hug
+        physicalIntimacy: 0.5
+        emotionalInitimacy: 0.3
+        physicalAttraction: 0.3
+        buddy: 0.3
+        intellectualAttraction: 0
+    answer3:
+        text: Kiss
+        physicalIntimacy: 0.6
+        emotionalInitimacy: 0.4
+        physicalAttraction: 0.5
+        buddy: 0.1
+        intellectualAttraction: 0
+    answer4:
+        text: Have Sex
+        physicalIntimacy: 0.8
+        emotionalInitimacy: 0.3
+        physicalAttraction: 1
+        buddy: 0.1
+        intellectualAttraction: 0
 
   - question:
     text:  What game would you like to play with this person?
-    answer1:  Trivial Pursuit
-    answer2:  Twister
-    answer3:  Co-Op video game
-    answer4:  Poker
+    answer1:
+        text: Trivial Pursuit
+        physicalIntimacy: 0
+        emotionalInitimacy: 0
+        physicalAttraction: 0
+        buddy: 0.2
+        intellectualAttraction: 0.5
+    answer2:
+        text: Twister
+        physicalIntimacy: 0.5
+        emotionalInitimacy: 0
+        physicalAttraction: 0.2
+        buddy: 0.2
+        intellectualAttraction: 0
+    answer3:
+        text: Co-Op video game
+        physicalIntimacy: 0.1
+        emotionalInitimacy: 0.2
+        physicalAttraction: 0
+        buddy: 0.5
+        intellectualAttraction: 0.4
+    answer4:
+        text: Poker
+        physicalIntimacy: 0
+        emotionalInitimacy: 0
+        physicalAttraction: 0
+        buddy: 0.2
+        intellectualAttraction: 0.5
 
   - question:
     text:  What facial feature do you like most?
-    answer1:  Eyes
-    answer2:  Bone Structur
-    answer3:  Mouth / Lips
-    answer4:  Skin
+    answer1:
+        text: Eyes
+        physicalIntimacy: 0
+        emotionalInitimacy: 0
+        physicalAttraction: 0
+        buddy: 0
+        intellectualAttraction: 0
+    answer2:
+        text: Bone Structur
+        physicalIntimacy: 0
+        emotionalInitimacy: 0
+        physicalAttraction: 0
+        buddy: 0
+        intellectualAttraction: 0
+    answer3:
+        text: Mouth / Lips
+        physicalIntimacy: 0
+        emotionalInitimacy: 0
+        physicalAttraction: 0
+        buddy: 0
+        intellectualAttraction: 0
+    answer4:   
+        text: Skin
+        physicalIntimacy: 0
+        emotionalInitimacy: 0
+        physicalAttraction: 0
+        buddy: 0
+        intellectualAttraction: 0
 
   - question:
     text:  How comfortable do you feel with this person?
-    answer1:  Very
-    answer2:  So So
-    answer3:  A Little
-    answer4:  Not at all
+    answer1:   
+        text: Very
+        physicalIntimacy: 0.3
+        emotionalInitimacy: 1
+        physicalAttraction: 0
+        buddy: 0.3
+        intellectualAttraction: 0
+    answer2:
+        text: So So
+        physicalIntimacy: 0.2
+        emotionalInitimacy: .6
+        physicalAttraction: 0
+        buddy: 0.2
+        intellectualAttraction: 0
+    answer3:
+        text: A Little
+        physicalIntimacy: 0.1
+        emotionalInitimacy: 0.3
+        physicalAttraction: 0
+        buddy: 0
+        intellectualAttraction: 0
+    answer4:
+        text: Not at all
+        physicalIntimacy: 0
+        emotionalInitimacy: 0
+        physicalAttraction: 0
+        buddy: 0
+        intellectualAttraction: 0
 
   - question:
     text:  What topic would you want to discuss with this person?
-    answer1:  Politics
-    answer2:  Personal Issues
-    answer3:  Hobbies
-    answer4:  Rather not talk
+    answer1:
+        text: Politics
+        physicalIntimacy: 0
+        emotionalInitimacy: 0.1
+        physicalAttraction: 0
+        buddy: 0.1
+        intellectualAttraction: 1
+    answer2:
+        text: Personal Issues
+        physicalIntimacy: 0.1
+        emotionalInitimacy: 1
+        physicalAttraction: 0
+        buddy: 0.3
+        intellectualAttraction: 0.3
+    answer3:
+        text: Hobbies
+        physicalIntimacy: 0
+        emotionalInitimacy: 0.2
+        physicalAttraction: 0
+        buddy: 0.5
+        intellectualAttraction: 0
+    answer4:
+        text: Rather not talk
+        physicalIntimacy: 0
+        emotionalInitimacy: 0
+        physicalAttraction: 0
+        buddy: 0
+        intellectualAttraction: 0
 
   - question:
     text:  What do you think is the best trait of this person?
-    answer1:  Looks
-    answer2:  Personality
-    answer3:  Intellect
-    answer4:  Vibe
+    answer1:
+        text: Looks
+        physicalIntimacy: 0
+        emotionalInitimacy: 0
+        physicalAttraction: 1
+        buddy: 0
+        intellectualAttraction: 0
+    answer2:
+        text: Personality
+        physicalIntimacy: 0
+        emotionalInitimacy: 0.8
+        physicalAttraction: 0
+        buddy: 0.3
+        intellectualAttraction: 0
+    answer3:
+        text: Intellect
+        physicalIntimacy: 0
+        emotionalInitimacy: 0
+        physicalAttraction: 0
+        buddy: 0
+        intellectualAttraction: 1
+    answer4:
+        text: Vibe
+        physicalIntimacy: 0.3
+        emotionalInitimacy: 0.8
+        physicalAttraction: 0.3
+        buddy: 0.3
+        intellectualAttraction: 0
 
   - question:
     text:  Who do you want to introduce this person to?
-    answer1:  Close Friends
-    answer2:  Family
-    answer3:  Nobody
-    answer4:  Co-Workers
+    answer1:
+        text: Close Friends
+        physicalIntimacy: 0
+        emotionalInitimacy: 0.5
+        physicalAttraction: 0
+        buddy: 0.8
+        intellectualAttraction: 0.3
+    answer2:
+        text: Family
+        physicalIntimacy: 0
+        emotionalInitimacy: 0.3
+        physicalAttraction: 0
+        buddy: 0.3
+        intellectualAttraction: 0.3
+    answer3:
+        text: Nobody
+        physicalIntimacy: 0
+        emotionalInitimacy: 0
+        physicalAttraction: 0
+        buddy: 0
+        intellectualAttraction: 0
+    answer4:
+        text: Co-Workers
+        physicalIntimacy: 0
+        emotionalInitimacy: 0
+        physicalAttraction: 0
+        buddy: 0.1
+        intellectualAttraction: 0.3
 
   - question:
     text:  What activity do you want to do with this person?
-    answer1:  Stroll on the beach
-    answer2:  Cuddle
-    answer3:  See a movie
-    answer4:  Go Swimming
+    answer1:
+        text: Stroll on the beach
+        physicalIntimacy: 0.6
+        emotionalInitimacy: 0.6
+        physicalAttraction: 0.4
+        buddy: 0.2
+        intellectualAttraction: 0.4
+    answer2:
+        text: Cuddle
+        physicalIntimacy: 1
+        emotionalInitimacy: 0.3
+        physicalAttraction: 0.8
+        buddy: 0.1
+        intellectualAttraction: 0
+    answer3:
+        text: See a movie
+        physicalIntimacy: 0.2
+        emotionalInitimacy: 0.3
+        physicalAttraction: 0
+        buddy: 0.5
+        intellectualAttraction: 0.5
+    answer4:
+        text: Go Swimming
+        physicalIntimacy: 0.1
+        emotionalInitimacy: 0
+        physicalAttraction: 0.3
+        buddy: 0.3
+        intellectualAttraction: 0
 
   - question:
     text:  What emotion springs to mind when you see this person?
-    answer1:  Aggression
-    answer2:  Indifference
-    answer3:  Comfort
-    answer4:  Desire
+    answer1:
+        text: Aggression
+        physicalIntimacy: 0
+        emotionalInitimacy: 0
+        physicalAttraction: 0
+        buddy: 0
+        intellectualAttraction: 0
+    answer2:
+        text: Indifference
+        physicalIntimacy: 0
+        emotionalInitimacy: 0
+        physicalAttraction: 0
+        buddy: 0
+        intellectualAttraction: 0
+    answer3:
+        text: Comfort
+        physicalIntimacy: 0.5
+        emotionalInitimacy: 0.3
+        physicalAttraction: 0.1
+        buddy: 0.4
+        intellectualAttraction: 0.2
+    answer4:
+        text: Desire
+        physicalIntimacy: 0.5
+        emotionalInitimacy: 0.2
+        physicalAttraction: 1
+        buddy: 0
+        intellectualAttraction: 0
 
   - question:
     text:  When do you want to see this person again?
-    answer1:  One Day
-    answer2:  One Week
-    answer3:  One Month
-    answer4:  A year or more
+    answer1:
+        text: One Day
+        physicalIntimacy: 0
+        emotionalInitimacy: 0
+        physicalAttraction: 0
+        buddy: 0
+        intellectualAttraction: 0
+    answer2:
+        text: One Week
+        physicalIntimacy: 0
+        emotionalInitimacy: 0
+        physicalAttraction: 0
+        buddy: 0
+        intellectualAttraction: 0
+    answer3:
+        text: One Month
+        physicalIntimacy: 0
+        emotionalInitimacy: 0
+        physicalAttraction: 0
+        buddy: 0
+        intellectualAttraction: 0
+    answer4:
+        text: A year or more
+        physicalIntimacy: 0
+        emotionalInitimacy: 0
+        physicalAttraction: 0
+        buddy: 0
+        intellectualAttraction: 0
 
   - question:
     text:  There was a party at your house and the person stays behind. Where would you want him/her to sleep?
-    answer1:  Your Bed
-    answer2:  Sofa
-    answer3:  Bed in other room
-    answer4:  Not at your place at all
+    answer1:
+        text: Your Bed
+        physicalIntimacy: 1
+        emotionalInitimacy: 0.5
+        physicalAttraction: 0.8
+        buddy: 0.3
+        intellectualAttraction: 0
+    answer2:
+        text: Sofa
+        physicalIntimacy: 0.2
+        emotionalInitimacy: 0.2
+        physicalAttraction: 0
+        buddy: 0.5
+        intellectualAttraction: 0
+    answer3:
+        text: Bed in other room
+        physicalIntimacy: 0.2
+        emotionalInitimacy: 0.2
+        physicalAttraction: 0
+        buddy: 0.6
+        intellectualAttraction: 0
+    answer4:
+        text: Not at your place at all
+        physicalIntimacy: 0
+        emotionalInitimacy: 0
+        physicalAttraction: 0
+        buddy: 0
+        intellectualAttraction: 0
 
   - question:
     text:  What do you hope this person likes about you?
-    answer1:  Looks
-    answer2:  Personality
-    answer3:  Intellect
-    answer4:  Vibe
+    answer1:
+        text: Looks
+        physicalIntimacy: 0
+        emotionalInitimacy: 0
+        physicalAttraction: 0
+        buddy: 0
+        intellectualAttraction: 0
+    answer2:
+        text: Personality
+        physicalIntimacy: 0
+        emotionalInitimacy: 0
+        physicalAttraction: 0
+        buddy: 0
+        intellectualAttraction: 0
+    answer3:
+        text: Intellect
+        physicalIntimacy: 0
+        emotionalInitimacy: 0
+        physicalAttraction: 0
+        buddy: 0
+        intellectualAttraction: 0
+    answer4:
+        text: Vibe
+        physicalIntimacy: 0
+        emotionalInitimacy: 0
+        physicalAttraction: 0
+        buddy: 0
+        intellectualAttraction: 0
 ...

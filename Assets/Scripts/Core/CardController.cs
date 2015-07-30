@@ -8,7 +8,13 @@ using System.Text;
 public class CardController : MonoBehaviour
 {    
     public Action OnRemoveAnimationEnded;
- 
+    public Action OnClick;
+
+    public CardController()
+    {
+        OnClick = PlayRemoveAnimation;
+    }
+
     public void AfterAnimation()
     {        
         OnRemoveAnimationEnded();
@@ -26,6 +32,6 @@ public class CardController : MonoBehaviour
 
     void OnMouseDown()
     {
-        PlayRemoveAnimation();
+        OnClick();
     }
 }

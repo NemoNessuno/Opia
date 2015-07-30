@@ -7,8 +7,8 @@ using System.Text;
 
 public class MenuCardController : CardController
 {
-    public OnClickBehaviour StartMenuPoint;
-    public OnClickBehaviour OptionsMenuPoint;
+    public ClickableText StartMenuPoint;
+    public ClickableText OptionsMenuPoint;
 
     public Action OnStartClicked;
     public Action OnOptionsClicked;

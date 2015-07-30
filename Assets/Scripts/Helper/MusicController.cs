@@ -38,6 +38,7 @@ public class MusicController : MonoBehaviour {
 	public static void PlayMusic(AudioClip clip){
 		if (_currentMusic == null) {
 			_currentMusic = CreateAudioSource2D (clip, true);
+            _currentMusic.name = "BackgroundMusic";
 		} else {
 			var audioSource = _currentMusic.GetComponent<AudioSource>();
 			audioSource.Stop();
